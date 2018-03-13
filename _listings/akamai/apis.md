@@ -33,7 +33,7 @@ apis:
   tags: Properties
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/properties/master/_listings/akamai/config-gtm-v1-domains-domain-properties-propertyname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/properties/master/_listings/akamai/user-admin-v1-accounts-accountid-groups-groupid-properties-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
