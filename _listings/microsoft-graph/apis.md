@@ -32,7 +32,7 @@ apis:
   tags: Properties
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/microsoft-graph/me-drive-root-item-path-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/microsoft-graph/drives-drive-id-items-item-id-patch.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
