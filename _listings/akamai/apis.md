@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API List a Property&#8217;s Users
-  description: List a Property&#8217;s Users
+- name: Akamai API Move a Property to Another Group
+  description: Move a Property to Another Group
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Properties
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/akamai/user-admin-v1-accounts-accountid-groups-groupid-properties-assetid-users-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/akamai/user-admin-v1-accounts-accountid-properties-propertyid-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
