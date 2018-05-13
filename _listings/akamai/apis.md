@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get a Property
-  description: Get a Property
+- name: Akamai API List Property Versions
+  description: List Property Versions
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Properties
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/akamai/papi-v0-properties-propertyid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/akamai/papi-v0-properties-propertyid-versions-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
