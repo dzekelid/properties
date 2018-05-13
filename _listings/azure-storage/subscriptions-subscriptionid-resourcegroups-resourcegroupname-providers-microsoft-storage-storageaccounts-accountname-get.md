@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Storage Accounts Get Properties
   version: 1.0.0
+  description: Returns the properties for the specified storage account including
+    but not limited to name, SKU name, location, and account status. The ListKeys
+    operation should be used to retrieve storage keys.
 host: management.azure.com
 basePath: /
 schemes:
