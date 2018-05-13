@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get Associated Properties for a Policy
+  description: Get Associated Properties for a Policy
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Get Associated Properties for a Policy
       operationId: cloudletsapiv2policyidproperties
       parameters:
-      - in: Number
+      - in: query
         name: policyId
         description: The ID of the policy
         type: string
