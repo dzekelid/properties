@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Move a Property to Another Group
+  description: Move a Property to Another Group
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Move a Property to Another Group
       operationId: useradminv1accountsaccountidpropertiespropertyid
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for an account
         type: string
-      - in: String
+      - in: query
         name: propertyId
         description: Within the User Admin API, the assetId is also known as the propertyId
         type: string
