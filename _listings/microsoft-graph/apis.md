@@ -33,7 +33,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/microsoft-graph/groups-group-id-drive-items-item-id-patch.md
+- name: Microsoft Graph API Update Drive Item Properties
+  description: Update DriveItem properties Update the metadata for a DriveItem by
+    ID or path.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Properties
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/microsoft-graph/me-drive-items-item-id-patch.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/microsoft-graph/me-drive-items-item-id-patch-postman.md
 x-common:
+- type: x-change-loge
+  url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
+- type: x-documentation
+  url: https://developer.microsoft.com/en-us/graph/docs
+- type: x-explorer
+  url: https://developer.microsoft.com/en-us/graph/graph-explorer
+- type: x-getting-started
+  url: https://developer.microsoft.com/en-us/graph/docs/get-started/rest
+- type: x-github
+  url: https://github.com/microsoftgraph
+- type: x-sdk
+  url: https://developer.microsoft.com/en-us/graph/code-samples-and-sdks
+- type: x-website
+  url: https://developer.microsoft.com/en-us/graph/
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
 - type: x-documentation
