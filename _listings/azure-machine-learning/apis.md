@@ -28,7 +28,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-createregionalblob-post.md
+- name: Azure Machine Learning API Web Services Create Regional Properties
+  description: Creates an encrypted credentials parameter blob for the specified region.
+    To get the web service from a region other than the region in which it has been
+    created, you must first call Create Regional Web Services Properties to create
+    a copy of the encrypted credential parameter blob in that region. You only need
+    to do this before the first time that you get the web service in the new region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-simple-scalable-cutting-edge.jpg
+  humanURL: https://azure.microsoft.com/en-us/services/machine-learning/
+  baseURL: http:://management.azure.com//
+  tags: Properties
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-createregionalblob-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/azure-machine-learning/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-machinelearning-webservices-webservicename-createregionalblob-post-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/machine-learning/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/machine-learning/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/machine-learning/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/machine-learning/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/machine-learning/
 - type: x-pricing
