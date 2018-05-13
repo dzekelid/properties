@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List a Group&#8217;s Properties
+  description: List a Group&#8217;s Properties
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: List a Group&#8217;s Properties
       operationId: useradminv1accountsaccountidgroupsgroupidproperties
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for an account
         type: string
-      - in: Integer
+      - in: query
         name: groupId
         description: Unique numeric identifier for a group
         type: string
