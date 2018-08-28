@@ -7,43 +7,36 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Properties
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Lykke Get API Client Properties Isuserfromus
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Client Properties Isuserfromus
+  x-api-slug: apiclientpropertiesisuserfromus-get
   description: Get api client properties isuserfromus.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/properties/isUserFromUS
-  tags: Client,Properties,Isuserfromus
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/lykke/apiclientpropertiesisuserfromus-get-openapi.md
-- name: Lykke Add API Client Properties Isuserfromus
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Client Properties Isuserfromus
+  x-api-slug: apiclientpropertiesisuserfromus-post
   description: Add api client properties isuserfromus.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/properties/isUserFromUS
-  tags: Client,Properties,Isuserfromus
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/lykke/apiclientpropertiesisuserfromus-post-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: Lykke is a movement to build one global marketplace that is a level
-    playing field where everyone has access.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https:////
-  tags: Properties
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/properties/master/_listings/lykke/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://lykke.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/lykke-ag
 - type: x-email
